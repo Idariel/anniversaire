@@ -1,0 +1,7 @@
+Un fichier texte contenant un court descriptif de votre démarche. C’est très important de pouvoir expliquer ses démarches quand on travaille dans une équipe de développement. Faire un résumé de votre manière d’aborder et de réaliser l’activité vous permettra de solidifier ce que vous avez appris !
+
+J'ai d'abord créé tous le fichier HTML, c'est-à-dire la page finale, avec tous les liens correctement placés (class dans le head, jquery et java avant la fin du body). J'ai aussi marqué l'emplacement des balises <audio><a/udio>, mais sans me préoccuper de son contenu. J'ai fait en dernier.
+
+Je me suis occupée ensuite des CSS afin d'obtenir le rendu final statique de la carte d'anniversaire.
+
+Lorsque la carte a été satisfaisante, je me suis occupée du javascript/jQuery, c'est-à-dire de l'animation de la carte. Dans un 

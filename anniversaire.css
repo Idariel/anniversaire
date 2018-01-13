@@ -34,6 +34,9 @@ Cliquer sur le second article affiché affiche le troisième. */
 }
 
 /* Pour montrer qu'il faut faire une action (genre cliquer) */
+h1:hover{
+  background-color: darkblue;
+}
 .texte:hover{
   background-color: darkblue;
 }
