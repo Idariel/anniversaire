@@ -4,7 +4,6 @@ Ce qui doit être visible lorsqu'on "ouvre" la carte
 $('#a1').hide();
 $('#a2').hide();
 $('#a3').hide();
-$('audio').hide();
 
 /*
 Click sur chaque paragraphe
@@ -26,7 +25,5 @@ $('#a2').on('click', function(){
 Démarrage/gestion de la partie audio
 */
 $('#a3').on('click', function(){
-  /* $('audio').play(); */
-  $('audio').find();
   ($('audio').attr('autoplay','active'));
 })

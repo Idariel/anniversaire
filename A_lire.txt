@@ -2,6 +2,10 @@ Un fichier texte contenant un court descriptif de votre démarche. C’est très
 
 J'ai d'abord créé tous le fichier HTML, c'est-à-dire la page finale, avec tous les liens correctement placés (class dans le head, jquery et java avant la fin du body). J'ai aussi marqué l'emplacement des balises <audio><a/udio>, mais sans me préoccuper de son contenu. J'ai fait en dernier.
 
-Je me suis occupée ensuite des CSS afin d'obtenir le rendu final statique de la carte d'anniversaire.
+Je me suis occupée ensuite des CSS afin d'obtenir le rendu final statique de la carte d'anniversaire. J'ai mis un hover (passe le texte sur fond bleu) sur tous les éléments cliquables lorsqu'ils apparaissent pour signaler qu'il y a une action à faire ici.
 
-Lorsque la carte a été satisfaisante, je me suis occupée du javascript/jQuery, c'est-à-dire de l'animation de la carte. Dans un 
+Lorsque la carte a été satisfaisante, je me suis occupée du javascript/jQuery, c'est-à-dire de l'animation de la carte : faire apparaître l'élément suivant lorsqu'on clique sur un élément déja visible.
+
+En dernier, je me suis occupée de l'élément audio. Je ne voulais pas de contrôles apparents, donc je n'ai pas demandé de mettre les contrôles (pas d'attribut controls dans le HTML). Du coup, pas besoin d'utilisant la fonction .hide() de jQuery sur <audio> puisque rien n'apparaît. J'ai un peu galéré pour trouver comment lancer l'audio sur le dernier click. Finalement, 'autoplay' est un attribut de la balise HTML <audio>, il fallait juste l'activer.
+
+J'espère que le résultat vous plait.
