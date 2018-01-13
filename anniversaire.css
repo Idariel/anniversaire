@@ -1,1 +1,45 @@
+html{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color: darkblue;
+  background-image: url(images/espace3.jpg);
+  /* background-position: center center; */
+  background-size: cover;
+  font-family: fantasy, "Comic Sans", sans-serif;
+  color: white;
+  padding: 20px 20px 20px 30%;
+  margin: 0px;
+}
 
+/* Joyeux Anniversaire */
+h1{
+  font-size: 5.3em;
+}
+
+/* 3 textes cliquables. */
+section{
+  margin: 0 100px 0 140px;
+}
+
+/* Cliquer sur le premier article affiché affiche le second.
+Cliquer sur le second article affiché affiche le troisième. */
+.texte{
+  text-align: center;
+  font-size: 2.2em;
+  margin: 0px;
+  margin: 0 0 60px 0;
+  padding: 0px;
+}
+
+footer{position: relative;
+  bottom: 0px
+  color: #000000;
+  text-align: right;
+  font-size:0.8em;
+  font-style: italic;
+  margin: 0px;
+  padding: 0px;
+
+}
