@@ -9,3 +9,5 @@ Lorsque la carte a été satisfaisante, je me suis occupée du javascript/jQuery
 En dernier, je me suis occupée de l'élément audio. Je ne voulais pas de contrôles apparents, donc je n'ai pas demandé de mettre les contrôles (pas d'attribut controls dans le HTML). Du coup, pas besoin d'utilisant la fonction .hide() de jQuery sur <audio> puisque rien n'apparaît. J'ai un peu galéré pour trouver comment lancer l'audio sur le dernier click. Finalement, 'autoplay' est un attribut de la balise HTML <audio>, il fallait juste l'activer.
 
 J'espère que le résultat vous plait.
+
+PS : je pensais faire une petite animation avec le chaton dansant la gigue, mais je menque un peu de temps ce week-end.
