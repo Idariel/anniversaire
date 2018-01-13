@@ -1,14 +1,6 @@
-$body = $('body');
-$header = $('header');
-$h1 = $('h1');
-$section = $('section');
-$article = $('article');
-$footer = $('footer');
-
-/*  $header.hide();
-  $section.hide();
-  $article.hide();
-  $footer.hide();
-
-  $h1.fadeIn(1000);
+/*
 */
+$('#a1').show();
+$('#a2').hide();
+$('#a2').hide();
+$('audio').hide();

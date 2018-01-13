@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <title>Carte d'Anniversaire</title>
   <link rel="stylesheet" href="anniversaire.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 </head>
 
@@ -15,27 +14,41 @@
   </header>
 
   <section>
-    <article class="article">
+    <article id="a1" class="article">
       <p class="texte">Un petit chat danse dans l'espace...</p>
     <article>
 
-    <article class="article">
+    <article id="a2" class="article">
       <p class="texte">... Tout heureux de voir les planètes, <br />et leur ronde, et d'y participer ...</p>
     <article>
 
-    <article class="article">
+    <article id="a3" class="article">
       <p class="texte">... Mais c'est pourtant à toi qu'il pense<br />
       en ce jour particulier.</p>
     <article>
   </section>
 
+
 <!--      Une fois que l'utilisateur a cliqué sur le dernier paragraphe, un gros effet sonore doit se faire entendre ! Vous pouvez aussi, pourquoi pas, faire en sorte que l'image d'arrière-plan change, qu'une animation prenne vie, etc. Tout ce que vous voudrez pour illuminer la journée de votre ami. -->
 
-  <footer>
-    <p class="footer">@Isabelle Lechat</p>
+  <footer id="#footer">
+    <div class="footerDiv">
+      <p class="texteFooter">@Isabelle Lechat</p>
+    </div>
+    <div class="footerDiv">
+      <audio id="catSong" controls autoplay loop src="musique/TheGothardSisters-FlyingSails.mp3"  type="audio/mpeg">
+      Si vous pouvez lire ceci, votre navigateur ne lit pas les balise "audio", il faut installer la dernière version.
+      </audio>
+    </div>
+
   </footer>
 
-  <script type="text/javascript" src="anniversaire.js"></script>
+
+<noscript>
+  <p>Veuillez activer JavaScript</p>
+</noscript>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script src="anniversaire.js"></script>
 
 </body>
 </html>

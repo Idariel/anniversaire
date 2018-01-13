@@ -33,13 +33,21 @@ Cliquer sur le second article affiché affiche le troisième. */
   padding: 0px;
 }
 
-footer{position: relative;
-  bottom: 0px
-  color: #000000;
-  text-align: right;
+#footer{
+  position: relative;
+  bottom: 0px;
+}
+.footerDiv{
+  float: right;
+  display: inline-block;
+  margin: 0 20px 0 0;
+  padding: 0px;
+}
+.texteFooter{
+  color: #FFFFFF;
   font-size:0.8em;
   font-style: italic;
-  margin: 0px;
-  padding: 0px;
-
+}
+audio{
+  margin: 0 20px;
 }
