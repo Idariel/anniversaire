@@ -33,6 +33,12 @@ Cliquer sur le second article affiché affiche le troisième. */
   padding: 0px;
 }
 
+/* Pour montrer qu'il faut faire une action (genre cliquer) */
+.texte:hover{
+  background-color: darkblue;
+}
+
+/* Audio et signature */
 #footer{
   position: relative;
   bottom: 0px;
